@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/soft-school/static/css/main.bda0b999.chunk.css",
+    "main.js": "/soft-school/static/js/main.f20ea435.chunk.js",
+    "main.js.map": "/soft-school/static/js/main.f20ea435.chunk.js.map",
+    "runtime-main.js": "/soft-school/static/js/runtime-main.021fed8c.js",
+    "runtime-main.js.map": "/soft-school/static/js/runtime-main.021fed8c.js.map",
+    "static/css/2.f2512455.chunk.css": "/soft-school/static/css/2.f2512455.chunk.css",
+    "static/js/2.d0c24627.chunk.js": "/soft-school/static/js/2.d0c24627.chunk.js",
+    "static/js/2.d0c24627.chunk.js.map": "/soft-school/static/js/2.d0c24627.chunk.js.map",
+    "static/js/3.448fc575.chunk.js": "/soft-school/static/js/3.448fc575.chunk.js",
+    "static/js/3.448fc575.chunk.js.map": "/soft-school/static/js/3.448fc575.chunk.js.map",
+    "index.html": "/soft-school/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/soft-school/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.bda0b999.chunk.css.map": "/soft-school/static/css/main.bda0b999.chunk.css.map",
+    "static/js/2.d0c24627.chunk.js.LICENSE.txt": "/soft-school/static/js/2.d0c24627.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/soft-school/static/media/back.fcb3ec24.jpg",
+    "static/media/creativity.5a7d8839.jpg": "/soft-school/static/media/creativity.5a7d8839.jpg",
+    "static/media/critical-think.adcc999c.png": "/soft-school/static/media/critical-think.adcc999c.png",
+    "static/media/smart.1d87ed3f.png": "/soft-school/static/media/smart.1d87ed3f.png",
+    "static/media/studen.84a454ec.png": "/soft-school/static/media/studen.84a454ec.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.021fed8c.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.d0c24627.chunk.js",
+    "static/css/main.bda0b999.chunk.css",
+    "static/js/main.f20ea435.chunk.js"
+  ]
+}
