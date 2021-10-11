@@ -64,19 +64,31 @@
     margin-top: 2%;
     margin-left: 3%;
   }
+  .navBarItems,
+  .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: .8rem !important;
+  }
 }
 
 @media (max-width: 780px) {
   .col-md-auto {
     flex: 0 0 auto;
     width: auto;
-    margin-top: -13%;
+    margin-top: -8%;
   }
   .logo {
-    width: 154px;
+    width: 144px;
     height: 89px;
     margin-top: 2%;
     margin-left: 2%;
+  }
+  .navBarItems,
+  .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: .8rem !important;
   }
 }
 
@@ -91,5 +103,11 @@
     height: 89px;
     margin-top: 2%;
     margin-left: 2%;
+  }
+  .navBarItems,
+  .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: .8rem !important;
   }
 }
