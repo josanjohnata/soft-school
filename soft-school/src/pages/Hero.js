@@ -1,10 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../style/style.css";
+import "../style/hero.css";
 import Menu from "../components/NavBar";
-import smart from "../images/smart.png";
-import creativity from "../images/creativity.jpg";
-import criticalThink from "../images/critical-think.png";
 
 function Hero() {
   return (
@@ -31,7 +28,7 @@ function Hero() {
               </div>
             </div>
             <div className="col-md-6">
-            <div className="hero-video"></div>
+              <div className="hero-video"></div>
             </div>
           </div>
         </div>

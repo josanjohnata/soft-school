@@ -1,4 +1,7 @@
 import React from 'react'
+import smart from "../images/smart.png";
+import creativity from "../images/creativity.jpg";
+import criticalThink from "../images/critical-think.png";
 
 export default function Details() {
   return (
