@@ -1,0 +1,35 @@
+.textDetails {
+  margin-left: 2.5%;
+}
+
+.rowDetails {
+  margin-top: 20px;
+}
+
+.textDetails h2 {
+  width: 691px;
+  height: 160px;
+  font-size: 40px;
+  line-height: 80px;
+  font-weight: bold;
+  margin-left: -15%;
+  color: #000;
+}
+
+.textDetails p {
+  top: 41.5px;
+  width: 688px;
+  height: 288px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: -15%;
+  font-size: 24px;
+  line-height: 48px;
+  color: #000;
+}
+
+.dashboard, .rowDetails  {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}

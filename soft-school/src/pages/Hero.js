@@ -1,17 +1,21 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../style/hero.css";
+import "../style/Hero.css";
 import Menu from "../components/NavBar";
+import Details from "../pages/Details";
+import { FaWhatsapp } from "react-icons/fa";
+import imgVideo from "../images/PaginaInicial.png"
 
 function Hero() {
   return (
+    <>
     <div>
       <Menu />
       <div className="hero">
         <div className="container">
-          <div className="row">
+          <div className="rowHero">
             <div className="col-md-6">
-              <div className="text">
+              <div className="textHero">
                 <h1>A ESCOLA QUE TE PREPARA PARA O MERCADO</h1>
                 <p>
                   Contratar é um drama para empresas e gestores. Encontrar um
@@ -27,14 +31,17 @@ function Hero() {
                 <a href=".saibaMais">Saiba mais!</a>
               </div>
             </div>
-            <div className="col-md-6">
-              <div className="hero-video"></div>
+            <div className="imgVideoContainer">
+              <img className="imgVideo" src={imgVideo} />
+              <FaWhatsapp className="whatsappIcon" />
             </div>
           </div>
         </div>
       </div>
-
+      
     </div>
+    <Details />
+    </>
   );
 }
 
