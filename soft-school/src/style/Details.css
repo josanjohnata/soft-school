@@ -33,3 +33,13 @@
   display: grid;
   grid-template-columns: repeat(2, 2fr);
 }
+
+.dashboard1 {
+  transform: scale(0.9);
+  transition: 0.2s;
+}
+
+.dashboard1:hover {
+  cursor: pointer;
+  transform: scale(1);
+}
