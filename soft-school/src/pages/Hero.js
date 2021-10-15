@@ -28,7 +28,7 @@ function Hero() {
                   Lapidando talentos para se tornar melhores como profissionais
                   e como pessoas.
                 </p>
-                <a href=".saibaMais">Saiba mais!</a>
+                <button href=".saibaMais" clasName="BtnSaibaMais">Saiba mais!</button>
               </div>
             </div>
             <div className="imgVideoContainer">

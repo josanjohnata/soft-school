@@ -5,14 +5,14 @@
 }
 
 .BigPac {
-  background: #EB651B !important;
+  background: #EB651B;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-}
-
-.BigPac {
-  margin-left: 2.5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .rowBigPac {
@@ -20,24 +20,40 @@
 }
 
 .BigPac h2 {
-  width: 691px;
-  height: 160px;
+  width: 185px;
+  height: 80px;
   font-size: 40px;
   line-height: 80px;
   font-weight: bold;
-  margin-left: -1%;
-  color: #000;
+  margin-left: -3%;
+  color: #fff;
 }
 
-.BigPac p {
-  top: 41.5px;
-  width: 688px;
-  height: 288px;
+.BigPacTextList li{
+  margin-left: -2%;
+}
+
+.BigPacTextList {
+  top: 20px;
+  width: 1218px;
+  height: 240px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
-  margin-left: -1%;
+  margin-left: -3%;
   font-size: 24px;
   line-height: 48px;
-  color: #000;
+  color: #fff;
+}
+
+.imgDiferecialContainer{
+  margin-top: 50px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.imgDiferecial {
+  width: 246px;
+  height: 332px;
+  top: 18px;
 }

@@ -1,0 +1,49 @@
+.formContainer {
+  background: #163B69;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.formContainer h2 {
+  margin-top: 40px;
+  width: 557px;
+  height: 80px;
+  font-size: 40px;
+  line-height: 80px;
+  font-weight: bold;
+  margin-left: 4%;
+  color: #EB651B;
+}
+
+.formContainer p {
+  width: 985px;
+  height: 56px;
+  font-size: 28px;
+  line-height: 56px;
+  font-weight: 600px;
+  margin-left: 4%;
+  color: #fff;
+}
+
+.formMessage {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4%;
+}
+
+.formMessage label {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  height: 36px;
+  font-size: 18px;
+  line-height: 56px;
+  font-weight: 400px;
+  margin-left: 4%;
+  color: #fff;
+}
