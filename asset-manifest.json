@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/soft-school/static/css/main.d8f20129.chunk.css",
-    "main.js": "/soft-school/static/js/main.7e4a5a95.chunk.js",
-    "main.js.map": "/soft-school/static/js/main.7e4a5a95.chunk.js.map",
+    "main.css": "/soft-school/static/css/main.6afde3d7.chunk.css",
+    "main.js": "/soft-school/static/js/main.59b881e4.chunk.js",
+    "main.js.map": "/soft-school/static/js/main.59b881e4.chunk.js.map",
     "runtime-main.js": "/soft-school/static/js/runtime-main.5c829ecb.js",
     "runtime-main.js.map": "/soft-school/static/js/runtime-main.5c829ecb.js.map",
     "static/css/2.f2512455.chunk.css": "/soft-school/static/css/2.f2512455.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.3a0d7894.chunk.js.map": "/soft-school/static/js/2.3a0d7894.chunk.js.map",
     "index.html": "/soft-school/index.html",
     "static/css/2.f2512455.chunk.css.map": "/soft-school/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.d8f20129.chunk.css.map": "/soft-school/static/css/main.d8f20129.chunk.css.map",
+    "static/css/main.6afde3d7.chunk.css.map": "/soft-school/static/css/main.6afde3d7.chunk.css.map",
     "static/js/2.3a0d7894.chunk.js.LICENSE.txt": "/soft-school/static/js/2.3a0d7894.chunk.js.LICENSE.txt",
     "static/media/Cards_Diferenciais_1.81201126.png": "/soft-school/static/media/Cards_Diferenciais_1.81201126.png",
     "static/media/Cards_Diferenciais_2.71c21b84.png": "/soft-school/static/media/Cards_Diferenciais_2.71c21b84.png",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.5c829ecb.js",
     "static/css/2.f2512455.chunk.css",
     "static/js/2.3a0d7894.chunk.js",
-    "static/css/main.d8f20129.chunk.css",
-    "static/js/main.7e4a5a95.chunk.js"
+    "static/css/main.6afde3d7.chunk.css",
+    "static/js/main.59b881e4.chunk.js"
   ]
 }
