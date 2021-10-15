@@ -13,7 +13,7 @@ export default function BicPac() {
         <div className="container">
           <div>
             <div className="rowBigPac">
-              <h2>BIG PAC!</h2>
+              <h2 id="BigPac">BIG PAC!</h2>
               <div className="BigPacTextList">
                 <p>
                   Nosso nº 1! Um modelo de treinamento com as soft skills mais

@@ -10,7 +10,7 @@ export default function Footer() {
     <div>
       <div className="footer">
         <div>
-          <h2>“quero mudar a minha empresa JÁ!”</h2>
+          <h2 id="footert">“quero mudar a minha empresa JÁ!”</h2>
           <h5>
             Mande uma mensagem para a Soft School e transforme a cultura da sua
             empresa de um jeito soft.

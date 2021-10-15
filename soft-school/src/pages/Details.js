@@ -15,7 +15,7 @@ export default function Details() {
             <div className="rowDetails">
               <div>
                 <div className="textDetails">
-                  <h2>
+                  <h2 id="details">
                     "HARD SKILLS CONTRATAM,
                     <br /> SOFT SKILLS DEMITEM"
                   </h2>
