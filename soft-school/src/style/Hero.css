@@ -1,3 +1,7 @@
+* {
+  font-family: Montserrat;
+}
+
 .textHero h1 {
   color: #fff;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
@@ -39,6 +43,7 @@
   height: 279px;
   width: 495px;
   margin-right: 50%;
+  cursor: pointer;
 }
 
 .whatsappIcon {
