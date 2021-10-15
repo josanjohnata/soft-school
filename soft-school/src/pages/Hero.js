@@ -3,7 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/Hero.css";
 import Menu from "../components/NavBar";
 import Details from "../pages/Details";
-import { FaWhatsapp } from "react-icons/fa";
+// import { FaWhatsapp } from "react-icons/fa";
+import WhatApp from '../images/Whatsapp.png';
 import imgVideo from "../images/PaginaInicial.png"
 
 function Hero() {
@@ -33,7 +34,7 @@ function Hero() {
             </div>
             <div className="imgVideoContainer">
               <img className="imgVideo" src={imgVideo} />
-              <FaWhatsapp className="whatsappIcon" />
+              <img src={WhatApp} className="whatsappIcon" />
             </div>
           </div>
         </div>
