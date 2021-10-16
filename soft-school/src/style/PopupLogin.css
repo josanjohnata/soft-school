@@ -1,6 +1,7 @@
 .popups-login {
   position: fixed;
   display: flex;
+  z-index: 999;
   height: 350px;
   width: 400px;
   align-items: center;
