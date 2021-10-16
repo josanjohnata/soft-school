@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/soft-school/static/css/main.e025e779.chunk.css",
-    "main.js": "/soft-school/static/js/main.106670fd.chunk.js",
-    "main.js.map": "/soft-school/static/js/main.106670fd.chunk.js.map",
+    "main.css": "/soft-school/static/css/main.41229ba6.chunk.css",
+    "main.js": "/soft-school/static/js/main.aeb16b4b.chunk.js",
+    "main.js.map": "/soft-school/static/js/main.aeb16b4b.chunk.js.map",
     "runtime-main.js": "/soft-school/static/js/runtime-main.5c829ecb.js",
     "runtime-main.js.map": "/soft-school/static/js/runtime-main.5c829ecb.js.map",
     "static/css/2.f2512455.chunk.css": "/soft-school/static/css/2.f2512455.chunk.css",
-    "static/js/2.8822f4af.chunk.js": "/soft-school/static/js/2.8822f4af.chunk.js",
-    "static/js/2.8822f4af.chunk.js.map": "/soft-school/static/js/2.8822f4af.chunk.js.map",
+    "static/js/2.a0062d98.chunk.js": "/soft-school/static/js/2.a0062d98.chunk.js",
+    "static/js/2.a0062d98.chunk.js.map": "/soft-school/static/js/2.a0062d98.chunk.js.map",
     "index.html": "/soft-school/index.html",
     "static/css/2.f2512455.chunk.css.map": "/soft-school/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.e025e779.chunk.css.map": "/soft-school/static/css/main.e025e779.chunk.css.map",
-    "static/js/2.8822f4af.chunk.js.LICENSE.txt": "/soft-school/static/js/2.8822f4af.chunk.js.LICENSE.txt",
+    "static/css/main.41229ba6.chunk.css.map": "/soft-school/static/css/main.41229ba6.chunk.css.map",
+    "static/js/2.a0062d98.chunk.js.LICENSE.txt": "/soft-school/static/js/2.a0062d98.chunk.js.LICENSE.txt",
     "static/media/Cards_Diferenciais_1.81201126.png": "/soft-school/static/media/Cards_Diferenciais_1.81201126.png",
     "static/media/Cards_Diferenciais_2.71c21b84.png": "/soft-school/static/media/Cards_Diferenciais_2.71c21b84.png",
     "static/media/Cards_Diferenciais_3.e9bade83.png": "/soft-school/static/media/Cards_Diferenciais_3.e9bade83.png",
@@ -20,6 +20,9 @@
     "static/media/Cards_New_dashboard_2.ca7ac6d6.jpg": "/soft-school/static/media/Cards_New_dashboard_2.ca7ac6d6.jpg",
     "static/media/Cards_New_dashboard_3.e535fdb4.jpg": "/soft-school/static/media/Cards_New_dashboard_3.e535fdb4.jpg",
     "static/media/Cards_New_dashboard_4.7295ab41.jpg": "/soft-school/static/media/Cards_New_dashboard_4.7295ab41.jpg",
+    "static/media/Curso1.db744a39.png": "/soft-school/static/media/Curso1.db744a39.png",
+    "static/media/Curso2.94cbff28.png": "/soft-school/static/media/Curso2.94cbff28.png",
+    "static/media/Curso3.ed089a4c.png": "/soft-school/static/media/Curso3.ed089a4c.png",
     "static/media/PaginaInicial.b34bb8e0.png": "/soft-school/static/media/PaginaInicial.b34bb8e0.png",
     "static/media/contatoV2.f054a111.jpg": "/soft-school/static/media/contatoV2.f054a111.jpg",
     "static/media/logo.257e74b1.jpg": "/soft-school/static/media/logo.257e74b1.jpg"
@@ -27,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.5c829ecb.js",
     "static/css/2.f2512455.chunk.css",
-    "static/js/2.8822f4af.chunk.js",
-    "static/css/main.e025e779.chunk.css",
-    "static/js/main.106670fd.chunk.js"
+    "static/js/2.a0062d98.chunk.js",
+    "static/css/main.41229ba6.chunk.css",
+    "static/js/main.aeb16b4b.chunk.js"
   ]
 }
