@@ -1,0 +1,113 @@
+.containerCourse {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerStudent h2 {  
+  margin-left: 10%;
+}
+
+.bodyCourse h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 200%;
+  margin-left: 5%;
+  color: #163b69;
+}
+
+.bodyCourse p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 200%;
+  margin-left: 5%;
+  color: #000;
+}
+
+.containerCourse img {
+  height: 405px;
+  width: 720px;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.containerCourse img:hover {
+  cursor: pointer;
+}
+
+.progressDashboard {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  align-items: flex-start;
+  height: 407px;
+  width: 519px;
+  left: 972px;
+  top: 4.96435546875px;
+  border-radius: 15px;
+  padding: 16px;
+  background-color: #163b69;
+  color: #fff;
+}
+
+.progressDashboard label {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 300%;
+  margin-left: 5%;
+}
+
+.progressDashboard h5 {
+  align-self: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 200%;
+}
+
+.progressDashboard span {
+  margin-left: 5px;  
+  transform: scale(0.9) !important;
+  transition: 0.2s;
+}
+
+.progressDashboard span:hover {
+  cursor: pointer;
+  transform: scale(1) !important;
+}
+
+.Próxima {
+  color: #D2D2D2 !important;
+}
+
+.progressDashboard .disabled {
+  text-decoration: line-through;
+  color: #575757;
+}
+
+.footerCourserBtn {
+  margin-right: 5px;
+  margin-left: 5px;
+  transform: scale(0.9);
+  transition: 0.2s;
+  }
+
+.footerCourserBtn:hover {
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.footerCourser {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  color: #163B69 !important;
+}

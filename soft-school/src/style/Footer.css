@@ -108,3 +108,25 @@
   cursor: pointer;
   transform: scale(0.9) !important;
 }
+
+#go-top {
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  background-color: rgb(7, 112, 197);
+  width: 45px;
+  height: 45px;
+  padding-top: 5px !important;
+  padding-left: 5px;
+  border-radius: 50%;
+  top: calc(100% - 70px);
+  margin-left: 600px !important;
+  margin-bottom: 10px;
+  transform: scale(0.9) !important;
+  transition: 0.3s;
+}
+
+#go-top:hover {
+  cursor: pointer;
+  transform: scale(1) !important;
+}

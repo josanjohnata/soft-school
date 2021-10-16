@@ -10,9 +10,9 @@ import imgVideo from "../images/PaginaInicial.png"
 function Hero() {
   return (
     <>
-    <div>
+    <div id="top">
       <Menu />
-      <div className="hero">
+      <div className="hero" >
         <div className="container">
           <div className="rowHero">
             <div className="col-md-6">
@@ -29,12 +29,12 @@ function Hero() {
                   Lapidando talentos para se tornar melhores como profissionais
                   e como pessoas.
                 </p>
-                <button href=".saibaMais" clasName="BtnSaibaMais">Saiba mais!</button>
+                <a href="#details" clasName="BtnSaibaMais">Saiba mais!</a>
               </div>
             </div>
             <div className="imgVideoContainer">
-              <img className="imgVideo" src={imgVideo} />
-              <img src={WhatApp} className="whatsappIcon" />
+              <img alt="" className="imgVideo" src={imgVideo} />
+              <img alt="" src={WhatApp} className="whatsappIcon" />
             </div>
           </div>
         </div>

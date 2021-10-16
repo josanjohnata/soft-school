@@ -48,12 +48,14 @@
 
 .whatsappIcon {
   display: flex;
-  position: relative;
+  position: fixed;
+  z-index: 999;
   width: 45px;
   height: 45px;
   color: #34af23;
   top: calc(100% - 56px);
-  margin-left: -45px !important;
+  margin-left: 450px !important;
+  margin-bottom: 10px;
   transform: scale(0.9) !important;
   transition: 0.2s;
   cursor: pointer;
@@ -74,7 +76,7 @@
   align-items: center;
 }
 
-.hero button {
+.hero a {
   background-color: #EB651B;
   border-color: #EB651B;
   text-transform: uppercase;
@@ -85,9 +87,10 @@
   padding: 10px 30px;
   transform: scale(0.9) !important;
   transition: 0.2s;
+  text-decoration: none !important;
 }
 
-.hero button:hover {
+.hero a:hover {
   background-color: #ff922e;
   transform: scale(1) !important;
 }

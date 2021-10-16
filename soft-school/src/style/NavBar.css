@@ -27,6 +27,8 @@
   color: #fff !important;
   font-weight: 700;
   font-size: 18px!important;
+  border-bottom: 1px solid #fff hidden;
+
 }
 
 .navBarItems:hover {
@@ -41,6 +43,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-decoration: none;
   padding: 5px 40px;
+  transition: 0.3s;
 }
 
 #login:hover {

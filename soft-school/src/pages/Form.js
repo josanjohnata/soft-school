@@ -7,7 +7,7 @@ export default function Form() {
   return (
     <>
       <div className="formContainer">
-        <h2>EVOLUA AO NOSSO LADO!</h2>
+        <h2 id="contact">EVOLUA AO NOSSO LADO!</h2>
         <p>Preencha o formulário e trilhe um caminho de sucesso com a gente.</p>
         <div className="formGrid">
           <form className="formMessage">
@@ -35,7 +35,7 @@ export default function Form() {
               Enviar
             </button>
           </form>
-        <img src={ImgContact} />
+        <img alt="" src={ImgContact} />
         </div>
       </div>
       <Footer />

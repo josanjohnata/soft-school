@@ -1,0 +1,74 @@
+.studentConteiner {
+  display: block;
+}
+
+.headerStudent {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.student {
+  display: flex;
+}
+
+.headerStudent h2 {
+  height: 80px;
+  width: 266px;
+  left: 17.5px;
+  top: 0px;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #eb651b;
+}
+
+.headerStudent p {
+  height: 48px;
+  width: 222px;
+  left: 0px;
+  top: 0px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  margin-right: -25px;
+  color: #163b69;
+}
+
+.headerStudent img {
+  border-radius: 50%;
+  height: 70px;
+  width: 73px;
+  margin-top: 5%;
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+
+.headerStudent img:hover {
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.studentCourses {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.studentCourses img {
+  height: 490.5px;
+  width: 277.2px;
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+
+.studentCourses img:hover {
+  cursor: pointer;
+  transform: scale(1);
+}

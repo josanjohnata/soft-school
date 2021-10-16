@@ -15,7 +15,7 @@ export default function Details() {
             <div className="rowDetails">
               <div>
                 <div className="textDetails">
-                  <h2>
+                  <h2 id="details">
                     "HARD SKILLS CONTRATAM,
                     <br /> SOFT SKILLS DEMITEM"
                   </h2>
@@ -30,10 +30,10 @@ export default function Details() {
                 </div>
               </div>
               <div className="dashboard">
-                <img src={Dash1} className="dashboard1" />
-                <img src={Dash2} className="dashboard1" />
-                <img src={Dash3} className="dashboard1" />
-                <img src={Dash4} className="dashboard1" />
+                <img alt="" src={Dash1} className="dashboard1" />
+                <img alt="" src={Dash2} className="dashboard1" />
+                <img alt="" src={Dash3} className="dashboard1" />
+                <img alt="" src={Dash4} className="dashboard1" />
               </div>
             </div>
           </div>
