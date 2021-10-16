@@ -4,8 +4,7 @@ import imgEmail from "../images/Vector.png";
 import imgFace from "../images/Facebook.png";
 import imgInst from "../images/Instagram.png";
 import imgLinkedIn from "../images/LinkedIn.png";
-import Top from "../images/top.png";
-import { Nav } from "react-bootstrap";
+import ScrollToTop from '../components/ScrollToTop';
 
 export default function Footer() {
   return (
@@ -36,11 +35,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <Nav.Link id="go-top" href="#top">
-        <span className="top" title="Back to Top" >
-          <img alt="" src={Top} href="#top" />
-        </span>
-      </Nav.Link>
+      <ScrollToTop />
     </div>
   );
 }

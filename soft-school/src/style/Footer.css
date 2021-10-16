@@ -113,14 +113,14 @@
   display: flex;
   position: fixed;
   z-index: 999;
-  background-color: rgb(7, 112, 197);
+  background-color: rgba(7, 112, 197, 0.8);
   width: 45px;
   height: 45px;
+  left: 45%;
   padding-top: 5px !important;
   padding-left: 5px;
-  border-radius: 50%;
+  border-radius: 100%;
   top: calc(100% - 70px);
-  margin-left: 600px !important;
   margin-bottom: 10px;
   transform: scale(0.9) !important;
   transition: 0.3s;
@@ -129,4 +129,17 @@
 #go-top:hover {
   cursor: pointer;
   transform: scale(1) !important;
+}
+
+#go-top img {
+  animation: ScrollToTop 0.5s alternate ease infinite;
+}
+
+@keyframes scrollToTop {
+  from {
+    transform: translateY(2px);
+  }
+  to {
+    transform: translateY(-1px);
+  }
 }
