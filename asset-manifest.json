@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/soft-school/static/css/main.41229ba6.chunk.css",
-    "main.js": "/soft-school/static/js/main.aeb16b4b.chunk.js",
-    "main.js.map": "/soft-school/static/js/main.aeb16b4b.chunk.js.map",
+    "main.js": "/soft-school/static/js/main.d89b9d49.chunk.js",
+    "main.js.map": "/soft-school/static/js/main.d89b9d49.chunk.js.map",
     "runtime-main.js": "/soft-school/static/js/runtime-main.5c829ecb.js",
     "runtime-main.js.map": "/soft-school/static/js/runtime-main.5c829ecb.js.map",
     "static/css/2.f2512455.chunk.css": "/soft-school/static/css/2.f2512455.chunk.css",
@@ -32,6 +32,6 @@
     "static/css/2.f2512455.chunk.css",
     "static/js/2.a0062d98.chunk.js",
     "static/css/main.41229ba6.chunk.css",
-    "static/js/main.aeb16b4b.chunk.js"
+    "static/js/main.d89b9d49.chunk.js"
   ]
 }
