@@ -30,10 +30,10 @@ export default function Details() {
                 </div>
               </div>
               <div className="dashboard">
-                <img src={Dash1} className="dashboard1" />
-                <img src={Dash2} className="dashboard1" />
-                <img src={Dash3} className="dashboard1" />
-                <img src={Dash4} className="dashboard1" />
+                <img alt="" src={Dash1} className="dashboard1" />
+                <img alt="" src={Dash2} className="dashboard1" />
+                <img alt="" src={Dash3} className="dashboard1" />
+                <img alt="" src={Dash4} className="dashboard1" />
               </div>
             </div>
           </div>

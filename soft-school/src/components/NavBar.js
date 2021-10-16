@@ -11,7 +11,7 @@ function NavBar() {
   return (
     <>
       <Navbar expand="lg" className="containerNavBar" collapseOnSelect>
-        <img src={Logo} className="logo" />
+        <img alt="" src={Logo} className="logo" />
         <Container fluid className="text-justify">
           <Col md="auto">
             <Navbar.Toggle

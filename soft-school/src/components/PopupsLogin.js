@@ -34,7 +34,7 @@ function PopupsLogin(props) {
     <div className="popups-login">
       <div className="popups-inner">
         <span className="close-btn" onClick={() => props.setTrigger(false)}>
-          <img src={ClosePopup} />
+          <img alt="" src={ClosePopup} />
         </span>
         <h2>Acessar meus cursos</h2>
         <form className="mainLogin">

@@ -1,27 +1,31 @@
 import React from "react";
 import { useHistory } from "react-router";
-import "../style/EmotionalIntelligence.css";
-import IconUser from "../components/IconUser";
-import CourseVideo from "../images/Player1.png";
-import ArrowLeft from "../images/ArrowLeft.png";
+import "../style/CoursePage2.css";
+import IconUser from '../components/IconUser';
+import CourseVideo from "../images/Player2.png";
+import ArrowLeft from "../images/ArrowLeftA.png";
 import ArrowRight from "../images/ArrowRigth.png";
 import Back from "../images/Back.png";
 
-function EmotionalIntelligence() {
-  const history = useHistory("/coursePage2", "/soft-school");
+function CoursePage2() {
+  const history = useHistory(
+    "/coursePage3",
+    "/soft-school",
+    "/emotionalIntelligence"
+  );
   return (
     <div>
       <IconUser />
       <div className="bodyCourse">
         <h4>Inteligência Emocional</h4>
-        <p>Aula 1: Introdução à Inteligencia emocional</p>
+        <p>Aula 2: Moldando a realidade</p>
       </div>
       <div className="containerCourse">
         <img src={CourseVideo} alt="" />
         <div className="progressDashboard">
           <h5>Conteúdo deste módulo:</h5>
           <label>
-            <input type="radio" />
+            <input type="radio" checked />
             <span>Aula 1: Introdução a I.E.</span>
           </label>
           <label>
@@ -48,7 +52,12 @@ function EmotionalIntelligence() {
       </div>
       <div className="footerCourser">
         <label>
-          <img alt="" className="footerCourserBtn" src={ArrowLeft} />
+          <img
+            alt=""
+            src={ArrowLeft}
+            className="footerCourserBtn"
+            onClick={() => history.push("/emotionalIntelligence")}
+          />
           <span className="Anterior">Anterior</span>
         </label>
         <div>
@@ -56,9 +65,9 @@ function EmotionalIntelligence() {
             <span>Próxima</span>
             <img
               alt=""
-              className="footerCourserBtn"
               src={ArrowRight}
-              onClick={() => history.push("/coursePage2")}
+              className="footerCourserBtn"
+              onClick={() => history.push("/coursePage3")}
             />
           </label>
         </div>
@@ -76,4 +85,4 @@ function EmotionalIntelligence() {
   );
 }
 
-export default EmotionalIntelligence;
+export default CoursePage2;

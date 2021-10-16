@@ -35,7 +35,7 @@ export default function Form() {
               Enviar
             </button>
           </form>
-        <img src={ImgContact} />
+        <img alt="" src={ImgContact} />
         </div>
       </div>
       <Footer />

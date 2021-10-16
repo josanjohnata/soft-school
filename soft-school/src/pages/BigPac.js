@@ -29,10 +29,10 @@ export default function BicPac() {
             </div>
             <div className="row">
               <div className="imgDiferecialContainer">
-                <img src={Diferencial1} className="imgDiferecial" />
-                <img src={Diferencial2} className="imgDiferecial" />
-                <img src={Diferencial3} className="imgDiferecial" />
-                <img src={Diferencial4} className="imgDiferecial" />
+                <img alt="" src={Diferencial1} className="imgDiferecial" />
+                <img alt="" src={Diferencial2} className="imgDiferecial" />
+                <img alt="" src={Diferencial3} className="imgDiferecial" />
+                <img alt="" src={Diferencial4} className="imgDiferecial" />
               </div>
             </div>
           </div>

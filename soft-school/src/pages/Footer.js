@@ -4,6 +4,8 @@ import imgEmail from "../images/Vector.png";
 import imgFace from "../images/Facebook.png";
 import imgInst from "../images/Instagram.png";
 import imgLinkedIn from "../images/LinkedIn.png";
+import Top from "../images/top.png";
+import { Nav } from "react-bootstrap";
 
 export default function Footer() {
   return (
@@ -16,7 +18,7 @@ export default function Footer() {
             empresa de um jeito soft.
           </h5>
           <div className="containerEmail">
-            <img src={imgEmail} />
+            <img alt="" src={imgEmail} />
             <p className="email">contato@softschool.com.br</p>
           </div>
         </div>
@@ -28,17 +30,17 @@ export default function Footer() {
             <p>CEP 12345-678</p>
           </div>
           <div className="icons">
-            <img src={imgFace} />
-            <img src={imgInst} />
-            <img src={imgLinkedIn} />
+            <img alt="" src={imgFace} />
+            <img alt="" src={imgInst} />
+            <img alt="" src={imgLinkedIn} />
           </div>
         </div>
       </div>
-      {/* <div id="go-top">
-        <a class="smoothscroll" title="Back to Top" href="#top">
-          <i class="fa fa-long-arrow-up"></i>
-        </a>
-      </div> */}
+      <Nav.Link id="go-top" href="#top">
+        <span className="top" title="Back to Top" >
+          <img alt="" src={Top} href="#top" />
+        </span>
+      </Nav.Link>
     </div>
   );
 }
