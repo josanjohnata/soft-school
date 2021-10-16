@@ -48,12 +48,13 @@
 
 .whatsappIcon {
   display: flex;
-  position: relative;
+  position: fixed;
   width: 45px;
   height: 45px;
   color: #34af23;
   top: calc(100% - 56px);
-  margin-left: -45px !important;
+  margin-left: 450px !important;
+  margin-bottom: 10px;
   transform: scale(0.9) !important;
   transition: 0.2s;
   cursor: pointer;
