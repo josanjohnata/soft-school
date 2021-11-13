@@ -10,7 +10,6 @@
   font-size: 40px;
   line-height: 48.76px;
   font-weight: bold;
-  margin-left: -20%;
 }
 
 .textHero {
@@ -19,8 +18,6 @@
 
 .textHero p {
   color: #fff;
-  margin-top: 30px;
-  margin-left: -20%;
   margin-bottom: 2.5rem;
   top: 41.5px;
   width: 699px;
@@ -35,6 +32,7 @@
 .rowHero, .imgVideoContainer {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
+  grid-gap: 8.15%;
 }
 
 
@@ -47,15 +45,13 @@
 }
 
 .whatsappIcon {
-  display: flex;
   position: fixed;
   z-index: 999;
   width: 45px;
   height: 45px;
   color: #34af23;
+  right: 2%;
   top: calc(100% - 56px);
-  margin-left: 450px !important;
-  margin-bottom: 10px;
   transform: scale(0.9) !important;
   transition: 0.2s;
   cursor: pointer;
@@ -71,6 +67,7 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 100%;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
