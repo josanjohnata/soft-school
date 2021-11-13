@@ -138,6 +138,23 @@
     background-color: #ddd;
   }
 
+  .col-md-6 {
+    display: flex;
+
+  }
+  
+  .textHero h1 {
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    width: 313px;
+    height: 137px;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: bold;
+    text-align: center !important;
+    left: 50% !important;
+  }
+
   h1,
   p {
     color: #fff;

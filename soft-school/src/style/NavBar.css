@@ -82,10 +82,10 @@
     margin-top: -8%;
   }
   .logo {
-    width: 144px;
-    height: 89px;
-    margin-top: 2%;
-    margin-left: -12% ;
+    width: 105px;
+    height: 60px;
+    margin-top: 16px;
+    margin-left: 5% ;
   }
   .navBarItems,
   .nav-link {
@@ -104,8 +104,8 @@
   .logo {
     width: 154px;
     height: 89px;
-    margin-top: 2%;
-    margin-left: 2%;
+    margin-top: 3%;
+    margin-left: 3%;
   }
   .navBarItems,
   .nav-link {
