@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/Details.css";
-import BigPac from "./BigPac";
+// import BigPac from "./BigPac";
 import Dash1 from "../images/Cards_New_dashboard_1.jpg";
 import Dash2 from "../images/Cards_New_dashboard_2.jpg";
 import Dash3 from "../images/Cards_New_dashboard_3.jpg";
@@ -39,7 +39,7 @@ export default function Details() {
           </div>
         </section>
       </div>
-      <BigPac />
+      {/* <BigPac /> */}
     </>
   );
 }

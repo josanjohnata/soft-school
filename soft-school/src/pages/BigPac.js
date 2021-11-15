@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/BigPac.css";
-import Form from './Form';
+// import Form from './Form';
 import Diferencial1 from "../images/Cards_Diferenciais_1.png";
 import Diferencial2 from "../images/Cards_Diferenciais_2.png";
 import Diferencial3 from "../images/Cards_Diferenciais_3.png";
@@ -38,7 +38,7 @@ export default function BicPac() {
           </div>
         </div>
       </section>
-      <Form />
+      {/* <Form /> */}
     </>
   );
 }

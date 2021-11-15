@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/Form.css";
 import ImgContact from "../images/contatoV2.jpg";
-import Footer from "../pages/Footer";
+// import Footer from "../pages/Footer";
 
 export default function Form() {
   return (
@@ -38,7 +38,7 @@ export default function Form() {
         <img alt="" src={ImgContact} />
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

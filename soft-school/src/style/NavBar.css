@@ -1,39 +1,47 @@
-.containerNavBar {
-  background: #163b69;
-}
-
-.text-justify {
-  flex-direction: column;
+.container {
   display: flex;
-  flex-wrap: nowrap;
-  align-items: flex-end !important;
-  margin-top: -3%;
-  margin-right: 7%;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1180px;
+  margin: auto;
 }
 
-.logo {
-  width: 260px;
-  height: 150px;
+img {
+  width: 150px;
+  margin-left: 20px;
+  padding: 15px 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 1rem; 
+  padding: 0 .6rem;
+  margin-top: 50%;
+  transition: all 250ms linear 0s;
+  border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #FFF;
+}
+
+/* .logo {
+  width: 200px;
+  height: 100px;
   margin-top: 2%;
   margin-left: 6.96%;
-}
-
-.navBarItems {
-  margin-right: 2.2em !important;
-}
-
-.navBarItems,
-.nav-link {
-  color: #fff !important;
-  font-weight: 700;
-  font-size: 18px!important;
-  border-bottom: 1px solid transparent;
-}
-
-.navBarItems:hover {
-  font-size: 18px!important;
-  border-bottom: 1px solid #fff;
-}
+} */
 
 #login {
   background: transparent;
@@ -53,64 +61,4 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-decoration: none;
   padding: 5px 40px;
-}
-
-@media (max-width: 1000px) {
-  .col-md-auto {
-    flex: 0 0 auto;
-    width: auto;
-    margin-top: -23%;
-  }
-  .logo {
-    width: 188px;
-    height: 105px;
-    margin-top: 2%;
-    margin-left: 3%;
-  }
-  .navBarItems,
-  .nav-link {
-    color: #fff !important;
-    font-weight: bold;
-    font-size: .8rem !important;
-  }
-}
-
-@media (max-width: 780px) {
-  .col-md-auto {
-    flex: 0 0 auto;
-    width: auto;
-    margin-top: -8%;
-  }
-  .logo {
-    width: 105px;
-    height: 60px;
-    margin-top: 16px;
-    margin-left: 5% ;
-  }
-  .navBarItems,
-  .nav-link {
-    color: #fff !important;
-    font-weight: bold;
-    font-size: .8rem !important;
-  }
-}
-
-@media (max-width: 500px) {
-  .col-md-auto {
-    flex: 0 0 auto;
-    width: auto;
-    margin-top: -15%;
-  }
-  .logo {
-    width: 154px;
-    height: 89px;
-    margin-top: 3%;
-    margin-left: 3%;
-  }
-  .navBarItems,
-  .nav-link {
-    color: #fff !important;
-    font-weight: bold;
-    font-size: .8rem !important;
-  }
 }

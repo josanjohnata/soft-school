@@ -2,15 +2,16 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/Hero.css";
 import Menu from "../components/NavBar";
-import Details from "../pages/Details";
+// import Details from "../pages/Details";
 import WhatsApp from '../images/Whatsapp.png';
 import imgVideo from "../images/PaginaInicial.png"
 
 function Hero() {
   return (
     <>
-    <div id="top">
+    <header id="top">
       <Menu />
+    </header>
       <img alt="" src={WhatsApp} className="whatsappIcon" />
       <div className="hero" >
         <div className="container">
@@ -37,9 +38,8 @@ function Hero() {
             </div>
           </div>              
         </div>
-      </div>      
-    </div>
-    <Details />
+      </div>
+    {/* <Details /> */}
     </>
   );
 }

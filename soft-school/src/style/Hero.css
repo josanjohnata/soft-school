@@ -2,6 +2,10 @@
   font-family: Montserrat;
 }
 
+header {
+  background-color: #163b69;
+}
+
 .textHero h1 {
   color: #fff;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
@@ -131,6 +135,12 @@
 }
 
 @media (max-width: 500px) {
+  .rowHero, .imgVideoContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-gap: 8.15%; */
+  }
+
   .hero-video {
     margin-top: 8% !important;
     height: 200px;
@@ -140,7 +150,6 @@
 
   .col-md-6 {
     display: flex;
-
   }
   
   .textHero h1 {

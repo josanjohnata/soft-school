@@ -4,7 +4,7 @@ import imgEmail from "../images/Vector.png";
 import imgFace from "../images/Facebook.png";
 import imgInst from "../images/Instagram.png";
 import imgLinkedIn from "../images/LinkedIn.png";
-import ScrollToTop from '../components/ScrollToTop';
+// import ScrollToTop from '../components/ScrollToTop';
 
 export default function Footer() {
   return (
@@ -35,7 +35,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
     </div>
   );
 }
