@@ -6,29 +6,16 @@ import PopupLogin from "./PopupsLogin";
 
 function NavBar() {
   const [buttonLogin, setButtonLogin] = useState(false);
-
-  // let show = true;
-
-  // const menuSection = document.querySelector(".menu-section");
-  // const menuToggle = menuSection.querySelector(".menu-toggle");
-
-  // menuToggle.addEventListener("click", () => {
-  //   document.body.style.overflow = show ? "hidden" : "initial";
-
-  //   menuSection.classList.toggle("on", show);
-  //   show = !show;
-  // });
-
+  
   return (
     <>
-      <div class="container">
+      <div className="container">
         <img alt="" src={Logo} className="logo" />
-
-        <div class="menu-section">
-          <div class="menu-toggle">
-            <div class="one"></div>
-            <div class="two"></div>
-            <div class="three"></div>
+        <div className="menu-section">
+          <div className="menu-toggle">
+            <div className="one"></div>
+            <div className="two"></div>
+            <div className="three"></div>
           </div>
           <nav>
             <ul>
@@ -45,7 +32,7 @@ function NavBar() {
                 <a href="#contact">Contato</a>
               </li>
               <li>
-                <a onClick={() => setButtonLogin(true)} id="login">
+                <a onClick={() => setButtonLogin(true)} id="login" href="#login">
                   Login
                 </a>
               </li>
