@@ -4,6 +4,19 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Logo from "../images/logo.jpg";
 import PopupLogin from "./PopupsLogin";
 
+const Toggle = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+  return (
+    <div>
+      <button className="btn btn-primary" onClick={toggle}>
+        Login
+      </button>
+      {isOpen && <PopupLogin />}
+    </div>
+  );
+}
+
 function NavBar() {
   const [buttonLogin, setButtonLogin] = useState(false);
   
@@ -12,7 +25,7 @@ function NavBar() {
       <div className="container">
         <img alt="" src={Logo} className="logo" />
         <div className="menu-section">
-          <div className="menu-toggle">
+          <div className="menu-toggle" onClick={() => Toggle }>
             <div className="one"></div>
             <div className="two"></div>
             <div className="three"></div>
